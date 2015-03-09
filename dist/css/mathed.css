@@ -1,0 +1,17 @@
+/*
+ * mathed.css
+ * Basic styles required for typesetting.
+ * By Ryan Sandor Richards
+ */
+
+/* Sizing Styles */
+.smaller { font-size: 50%; }
+.small { font-size: 75%; }
+.big { font-size: 120%; }
+.bigger { font-size: 180%; }
+
+/* Over-under styles */
+.ou { display: inline-block; text-align: center; vertical-align: middle; }
+.ou .m { margin: -0.23em 0 -0.13em 0; }
+.ou hr { color: black; background-color: black; height: 1px; margin: 0; padding: 0; border: none; }
+.ou .p { line-height: 1; }
