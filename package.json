@@ -1,0 +1,32 @@
+{
+  "name": "mathed",
+  "version": "0.5.0",
+  "description": "Interactive mathematics typsetting in JavaScript",
+  "keywords": [
+    "math",
+    "typesetting",
+    "latex"
+  ],
+  "homepage": "http://rsandor.github.io/mathed/",
+  "author": {
+    "name": "rsandor",
+    "url": "https://github.com/rsandor"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rsandor/mathed/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsandor/mathed.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-minify": "^0.7.5",
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
+  }
+}
