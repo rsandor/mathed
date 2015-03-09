@@ -589,6 +589,9 @@ Mathed.plugin('misc', {
   }
 });
 
+if (typeof window !== "undefined") {
+  window.Mathed = Mathed;
+}
 
 module.exports = Mathed;
 
