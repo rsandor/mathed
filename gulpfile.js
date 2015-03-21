@@ -29,4 +29,14 @@ gulp.task('css', function() {
     .pipe(gulp.dest('./dist/css/'));
 });
 
-gulp.task('build', ['js', 'css']);
+gulp.task('fonts', function() {
+  var sources = [
+    './fonts/*.eot',
+    './fonts/*.svg',
+    './fonts/*.ttf',
+    './fonts/*.woff'
+  ];
+  return gulp.src(sources).pipe(gulp.dest('./dist/fonts/'));
+});
+
+gulp.task('build', ['js', 'css', 'fonts']);
