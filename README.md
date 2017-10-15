@@ -1,5 +1,5 @@
-#mathed
+# mathed
 Interactive mathematics typsetting in JavaScript.
 
-##License
+## License
 MIT
